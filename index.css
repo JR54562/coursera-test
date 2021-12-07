@@ -1,0 +1,80 @@
+h1 {
+    color: green;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  h2 {
+    color: red;
+    text-align: right;
+    margin-right: 250px;
+  }
+  h3 {
+    color: blue;
+    margin-left: 250px;
+  }
+  p {
+    color: red;
+    font-size: 20px;
+    width: 250px;
+  }
+  aside.highlight {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: yellowgreen;
+    opacity: 0.6;
+    width: 500px;
+    margin: 0 auto;
+  }
+  article.highlight {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: yellowgreen;
+    opacity: 0.6;
+    width: 500px;
+  }
+  h3.highlight {
+    margin: 10px;
+    color: black;
+    background-color: yellow;
+    opacity: 0.6;
+    width: 100px;
+  }
+  #regDiv {
+    background-color: red;
+    border-style: solid;
+    border-color: green;
+    width: 500px;
+    font-size: 26px;
+    text-align: center;
+  }
+  header li {
+    list-style: none;
+  }
+  a:link, a:visited {
+    text-decoration: none;
+    background-color:rgb(0, 26, 128);
+    border: 1px solid blue;
+    color: white;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 2px;
+  }
+  a:hover, a:active{
+    background-color:red;
+    color: yellow;
+  }
+  header li:nth-child(3){
+    font-size: 24px;
+  }
+  section article:nth-child(odd){
+    background-color:gray;
+    width: 500px;
+  }
+  section article:nth-child(4):hover{
+    background-color:green;
+    width: 500px;
+  }
